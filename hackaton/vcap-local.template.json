@@ -1,0 +1,35 @@
+{
+    "services": {
+                  "cloudantNoSQLDB": [
+                    {
+                      "label": "cloudantNoSQLDB",
+                      "provider": null,
+                      "plan": "Lite",
+                      "name": "Cloudant-SosBot",
+                      "tags": [
+                        "data_management",
+                        "ibm_created",
+                        "lite",
+                        "ibm_dedicated_public",
+                        "ibmcloud-alias"
+                      ],
+                      "instance_name": "Cloudant-SosBot",
+                      "binding_name": null,
+                      "credentials": {
+                                      "apikey": "huaCJKj4y_Mj2YzWTkSxnIzAkG2iD1ALJ9kbxWWn5vM6",
+                                      "host": "16f3e8db-8a9e-44d4-904f-acb06fb568d0-bluemix.cloudantnosqldb.appdomain.cloud",
+                                      "iam_apikey_description": "Auto-generated for key 2cd0d999-a845-417f-bff2-2cd581932ede",
+                                      "iam_apikey_name": "credencial_1",
+                                      "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                                      "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/99d5e24a12bc4280b3cc8dde6838a323::serviceid:ServiceId-5403c3be-c762-495a-ad17-b1e11089a5dc",
+                                      "password": "6a265c2ab3bea3f646b9b2eb7651fdcca516c18e7b970dab9f673d643567404f",
+                                      "port": 443,
+                                      "url": "https://16f3e8db-8a9e-44d4-904f-acb06fb568d0-bluemix:6a265c2ab3bea3f646b9b2eb7651fdcca516c18e7b970dab9f673d643567404f@16f3e8db-8a9e-44d4-904f-acb06fb568d0-bluemix.cloudantnosqldb.appdomain.cloud",
+                                      "username": "16f3e8db-8a9e-44d4-904f-acb06fb568d0-bluemix"
+                                    },
+                      "syslog_drain_url": null,
+                      "volume_mounts": []
+                    }
+                  ]
+                }
+  }
